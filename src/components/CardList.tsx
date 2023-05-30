@@ -24,8 +24,8 @@ function CardList() {
   return (
     <div className="card-list">
       <Card cityInfo={ infoRioDeJaneiro } />
-      <Card cityInfo={ infoAcapulco } />
       <Card cityInfo={ infoCidadeDoCabo } />
+      <Card cityInfo={ infoAcapulco } />
     </div>
   );
 }
