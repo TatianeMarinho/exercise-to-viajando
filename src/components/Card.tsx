@@ -16,7 +16,7 @@ function Card({ cityInfo }: CardProps) {
       <div>
         <h2>{city}</h2>
         <h3>{country}</h3>
-        {viseted ? <p>Já Fui!</p> : <p>Não Fui.</p>}
+        {viseted || viseted === undefined ? <p>Não Fui.</p> : <p>Já Fui!</p>}
       </div>
     </div>
   );
